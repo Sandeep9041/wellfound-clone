@@ -1,0 +1,210 @@
+.login-containers{
+    display:flex;
+    justify-content: space-between;
+    margin-block:55px;
+    border: 1px solid #d4d4d4;
+    padding:32px 32px;
+    font-size:25px;
+}@media screen and ((min-width:1000px) and ( max-width:1200px)) {
+    .login-containers {
+        padding:15px 15px;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .login-containers {
+        flex-direction:column;
+        align-items:center;
+    }
+}
+.login-containers input {
+    border: 1px solid #d4d4d4;
+    padding:5px 17px;
+    border-radius:12px;
+    width:63%;
+}
+@media screen and ((min-width:1000px) and ( max-width:1200px)) {
+    .login-containers input{
+        padding:2px 15px;
+        width: 55%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .login-containers input{
+        width:100%;
+        font-size:13px;
+        padding: 7px 17px;
+        margin-bottom: 17px;
+    }
+}
+.login-containers p {
+    margin-top:11px;
+}
+@media screen and (max-width:1000px) {
+    .login-containers p{
+        margin-top: 5px;
+        font-size:17px;
+        margin-bottom:5px;
+    }
+}
+.learn-more-btns {
+    border: 1px solid #d4d4d4;
+    border-radius: 12px;
+    padding: 11px 19px;
+    font-size:21px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    transition: all .15s;
+    display: inline-block;
+    background-color: transparent;
+    margin-right: 16px;
+    font-weight:600;
+}
+@media screen and ((min-width:1000px) and ( max-width:1200px)) {
+    .learn-more-btns {
+        padding:5px 15px;
+        font-size:17px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .learn-more-btns {
+        width:100%;
+        font-size:13px;
+        padding: 7px 17px;
+    }
+}
+.signup-now-btns {
+    border-radius: 12px;
+    border: 0px;
+    padding:11px 19px;
+    font-size: 21px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color:#000;
+    color: #ffffff;
+}
+@media screen and ((min-width:1000px) and ( max-width:1200px)) {
+    .signup-now-btns {
+        padding:5px 15px;
+        font-size:17px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .signup-now-btns{
+        width:100%;
+        font-size:13px;
+        padding: 7px 17px;
+    }
+}
+.login-details span {
+    text-decoration:underline;
+}
+.login-details p {
+    font-size:22px;
+    opacity:0.8;
+}
+@media screen and (( max-width:1200px)) {
+    .login-details p {
+        font-size:15px;
+    }
+}
+.login-details {
+    display:flex;
+    justify-content:space-between;
+    margin-block:55px;
+}
+@media screen and (max-width:786px) {
+    .login-details {
+        flex-direction:column;
+        align-items:center;
+    }
+}
+.comments {
+    display: flex;
+    width:100%;
+    margin-bottom:55px;
+}
+@media screen and (max-width:786px) {
+    .comments{
+       flex-direction:column;
+       border-bottom:1px solid #d4d4d4;
+       border-top: 1px solid #d4d4d4;
+    }
+}
+.comments h1 {
+    font-weight:600;
+    font-size:46px;
+}
+@media screen and (max-width:1200px) {
+    .comments h1{
+        font-size:35px;
+    }
+}
+.comments h2 {
+    font-weight:600;
+    /* font-size:25px; */
+}
+@media screen and (max-width:1200px) {
+    .comments h2{
+        font-size:17px;
+    }
+}
+.box {
+    border : 1px solid #d4d4d4;
+    width:33%;
+    padding:75px 55px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:1200px) {
+    .box {
+        padding:57px 25px;
+    }
+}
+@media screen and (max-width:786px) {
+    .box {
+       /* background-color: red; */
+       width: 100%;
+       border:0px;
+       padding:35px 25px;
+    }
+}
+.one {
+    color:#143fcd;
+}
+.two {
+    color:#f0591c;
+}
+.three {
+    color:#0c7134;
+}
+.sliders {
+    border-bottom:1px solid #d4d4d4;
+    padding-bottom:25px;
+    margin-bottom:95px;
+}
+.sliders img {
+    width:195px;
+    height:155px;
+}
+@media screen and (max-width:1200px) {
+    .sliders img {
+       width:85px;
+       height:85px;
+    }
+}
+@media screen and (max-width:500px) {
+    .sliders img{
+        width:55px;
+        height:55px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .icons {
+        font-size:21px;
+        margin-right:7px;
+    }
+}

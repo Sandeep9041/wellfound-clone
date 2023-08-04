@@ -1,0 +1,146 @@
+.smallblog{
+    margin-top:20vh;
+    width: 100%;
+    margin-bottom:15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.small-blog-headings {
+    height:65vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+.small-blog-headings h1 {
+    font-size:75px;
+    font-weight:700;
+}
+@media screen and (max-width:786px) {
+    .small-blog-headings h1{
+        font-size:65px;
+        text-align: center;
+    }
+}
+
+.small-blog-headings span {
+    color: rgb(227, 46, 24);;
+}
+.small-blog-headings p {
+    font-size:21px;
+    margin-top:7px;
+}
+@media screen and (max-width:786px) {
+    .small-blog-headings p{
+        text-align:center;
+        font-size:19px;
+    }
+}
+
+.smallblog-img-card {
+    height:60%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+@media screen and (max-width:1200px) {
+    .smallblog-img-card{
+        height:40%
+    }
+}
+
+.smallblog-img-card img{
+    width:100%;
+    height:100%;
+}
+.small-blogs {
+    margin-top:17vh;
+    width:90%;
+}
+.small-blogs-top {
+    display:flex;
+    justify-content:space-between;
+}
+.small-blogs-top h1 {
+    font-weight: 600;
+    font-size:31px;
+}
+@media screen and (max-width:786px) {
+    .small-blogs-top h1{
+        font-size:25px;
+    }
+}
+
+.smallblog-card-containers {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    width:100%;
+    margin-top:55px;
+}
+@media screen and (max-width:786px) {
+    .smallblog-card-containers{
+        flex-direction:column;
+    }
+}
+
+.smallblog-card {
+    width:47%;
+    margin-block:55px;
+    height:110vh;
+    border:1px solid  rgb(223, 218, 218);
+}
+@media screen and (max-width:786px) {
+    .smallblog-card{
+        width:100%;
+        height:max-content;
+    }
+}
+
+.smallblog-content {
+    padding-inline: 25px;
+    padding-block:25px;
+}
+.smallblog-content h5 {
+    font-weight:600;
+    font-size:17px;
+    margin-bottom: 15px;
+    margin-top:15px;
+    letter-spacing: 0.1rem;
+}
+@media screen and (max-width:786px) {
+    .smallblog-content h5{
+        font-size:13px;
+    }
+}
+
+.smallblog-content h2 {
+    font-weight: 700;
+    margin-bottom:21px;
+    font-size:25px;
+}
+@media screen and (max-width:786px) {
+    .smallblog-content h2{
+        font-size:21px;
+    }
+}
+
+.smallblog-content p {
+    font-size:17px;
+}
+@media screen and (max-width:786px) {
+    .smallblog-content p{
+        font-size:14px;
+    }
+}
+
+.dropdowns {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top:15vh;
+    margin-bottom:-50px;
+}
